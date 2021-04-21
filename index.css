@@ -1,0 +1,107 @@
+body{
+    background-color: whitesmoke;
+    font-size: 20px ;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 0px;
+    margin: 0px;
+}
+.menu{
+    background-color: aqua ;
+    color: blue;
+
+}
+.actual ul {
+    list-style-type: none;
+padding: opx;
+margin: 0px;
+}
+.menu ul li {
+    padding: 20px;
+    text-align: justify;
+    font-size: 1rem;
+    border-bottom: 1.2px solid red;
+    transition: background-color 1ms;
+}
+
+.menu ul li:hover {
+background-color: saddlebrown;
+
+}
+
+.imagearea {
+    background-image: url(images/s_elefarda_a_2_by_anotherwanderer-d7mp9wg.jpg);
+    background-position: center center;
+    padding-top: 1000px;
+    padding-bottom: 100px;
+
+}
+
+.imagetxt{
+    text-align: center;
+    background-color: blue;
+    font-size: 3rem;
+    color: blanchedalmond;
+    max-width: 1050px;
+    margin: 0px auto;
+
+}
+
+.introduction{
+   
+    color: crimson;
+    font-size: 2.0rem;
+    text-align: center;
+    padding-bottom: 60px;
+    padding-bottom: 60px;
+
+}
+
+.mathematics{
+    text-align: justify;
+    margin-bottom: 25px;
+}
+.mathematics p{
+    padding: 0px 10px;
+}
+
+.science {
+    text-align: justify;
+    margin-bottom: 25px;
+}
+.science p{
+    padding: 0px 10px;
+}
+
+.computerSci{
+    text-align: justify;
+    margin-bottom: 25px;
+}
+.computerSci p{
+    padding: 0px 10px;
+}
+
+@media screen and ( min-width: 500px)  {
+    .menu ul {
+        text-align: left;
+    }
+
+    .menu ul li {
+        display: inline-flex;
+        border-bottom: 0px;
+        border-right: 2px solid red;
+        text-align: left;
+    }
+    .science{
+        width: 30%;
+        float: left;
+    }
+
+    .mathematics{
+        width: 30%;
+        float: right;
+    }
+    .computerSci{
+        width: 30%;
+        float: left;
+    }
+}
